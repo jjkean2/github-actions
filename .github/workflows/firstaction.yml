@@ -8,8 +8,7 @@ on:
   push:
     branches: 
       - master
-      - build
-  pull_request:
+    pull_request:
     types: [closed]
 
   # Allows you to run this workflow manually from the Actions tab
